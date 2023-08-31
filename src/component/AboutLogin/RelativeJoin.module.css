@@ -1,0 +1,265 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: fit-content;
+}
+
+label {
+    cursor: pointer;
+}
+
+.inputWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.noti {
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.indivisualMembers {
+    border-bottom: 0.2em solid darkgray;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 15px;
+    color: green;
+    padding-left: 10px;
+}
+
+.typeMember {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    width: 1000px;
+}
+
+.left {
+    margin: 0.5em;
+    padding: 1em;
+    border-bottom: none;
+    flex: 1;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    flex: 5;
+}
+
+.isInput {
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+    padding: 1em;
+    border: none;
+    border-radius: 1dvb;
+    background-color: #F3F3F3;
+    height: 20px;
+    font-size: 16px;
+}
+
+.notification {
+    width: fit-content;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex: 4;
+}
+
+.YesNo {
+    text-align: left;
+    display: flex;
+    flex-direction: col;
+    align-items: center;
+}
+
+.phoneNum {
+    border: none;
+    border-radius: 0.5dvb;
+    background-color: #F3F3F3;
+    margin: 0.5em;
+    margin-right: 4px;
+    padding: 1em;
+}
+
+.searchAddressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.searchAddress {
+    display: flex;
+    align-items: center;
+}
+
+.searchButton {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 1dvb;
+    cursor: pointer;
+}
+
+.inputAddress {
+    display: flex;
+    flex-direction: column;
+}
+
+.loadname,
+.buildingname,
+.detailAddress {
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+    padding: 1em;
+    border: none;
+    border-radius: 1dvb;
+    background-color: #F3F3F3;
+    height: 20px;
+    font-size: 16px;
+}
+
+.errorMessage {
+    color: #FF3333;
+}
+
+.logo {
+    cursor : pointer;
+    justify-content: left;
+    align-items: center;
+}
+
+.checkAll {
+    display: flex;
+    margin-top: 2em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.policyContainer{
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 4dvh;
+    margin-top: 1em;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.li_policy {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.eachContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContent {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.rightContent {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.clause {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.policyDetail {
+    margin-top: 1em;
+    padding: 0.7em;
+    border: 1.5px solid #404040;
+    border-radius: 1dvb;
+    width: 470px;
+    max-height: 10vh;
+    overflow-y:scroll; /* 스크롤 생성 */
+    background-color:F3F3F3;
+}
+
+.policyDetail_null {
+    width: 480px;
+}
+
+.warningMsg {
+    margin-top: 1em;
+    color: #CC0000;
+    font-size: 18px;
+}
+
+.moveContainer {
+    display: flex;
+    margin: 2em;
+}
+
+.back {
+    cursor: pointer;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 1.2dvh;
+    width: max-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign_up {
+    cursor: pointer;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-left: 2px solid #FF3333;
+    border-right: 2px solid #FF3333;
+    border-radius: 1dvh;
+    width: max-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.disabled {
+color: darkgray;
+border-left: 2px solid gray;
+border-right: 2px solid gray;
+cursor: not-allowed;
+}

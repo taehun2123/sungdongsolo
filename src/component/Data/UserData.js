@@ -1,0 +1,31 @@
+export let UserData = [
+    {
+        userType: 'corporation',
+        id: 'bigdev2023',
+        password: 'bigdev2023!',
+        confirmPassword: 'bigdev2023!',
+        email: 'bigdev@gmail.com',
+        emailService: 'yes',
+        name: '빅데브',
+        num1: '010',
+        num2: '1234',
+        num3: '5678',
+        corporationData : {
+            ceoName : '',
+            companyName : '',
+            companyNum : {
+                num1 : '',
+                num2 : '',
+                num3 : '',
+            },
+            businessNum : '',
+        },
+        smsService: 'yes',
+        address: '',
+        detailAddress: '',
+        coupon: "",
+        bonusMoney: "",
+        basket: [],
+        order: [],
+    },
+]

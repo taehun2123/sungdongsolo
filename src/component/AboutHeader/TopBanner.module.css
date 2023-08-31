@@ -1,0 +1,63 @@
+/* -------------------- TopBanner -------------------- */
+
+/* 화면 넓이에 꽉 맞도록 설정 */
+.top_container {
+  /* 상단바 고정 작업 */
+  background-color: white;
+  position:sticky;
+  z-index: 990;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.5em;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.top_nav {
+  flex: 1; /* 네비게이션 영역을 균등 영역으로 나누도록 설정 */
+  display: flex;
+  justify-content: space-evenly; /* 가로 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+  margin-top: 1em;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.image{
+  cursor: pointer;
+}
+
+/* 네비게이션 내부 링크 스타일링 (옵션) */
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.link_signIn  {
+  background-color: var(--background-color-set);
+  color: #FFF;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.3em;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  border: none;
+  border-radius: 1dvb;
+}
+
+.sub_item{
+  padding: 1em;
+  font-size: large;
+  word-wrap: wrap;
+}
+.sub_item:hover{
+  background-color: lightgray;
+}

@@ -1,0 +1,112 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    cursor : pointer;
+}
+
+.loginContentsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    border: 0.1em solid p;
+    border-radius: 2dvw;
+    padding: 10px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputId{
+    margin: 0.8em;
+    padding: 1em;
+    border: 0.1em solid gainsboro;
+    border-radius: 1dvb;
+    width: 500px;
+    font-size: 20px;
+}
+
+.inputPW{
+    margin: 0.8em;
+    padding: 1em;
+    border: 0.1em solid gainsboro;
+    border-radius: 1dvb;
+    width: 500px;
+    font-size: 20px;
+}
+
+.autoLoginCheckBox {
+    color: grey;
+    font-size: 18px;   
+    text-align: left; 
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.goLogin {
+    border: solid none;
+    border-radius: 1dvb;
+    background-color: var(--background-color-set);
+    color: white;
+    cursor : pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: 0.8em;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.findId{
+    cursor : pointer;
+}
+
+.findPW{
+    cursor : pointer;
+}
+
+.join{
+    cursor : pointer;
+}
+
+.findId:hover {
+    color: #CC0000;
+}
+
+.findPW:hover {
+    color: #CC0000;
+}
+
+.join:hover {
+    color: #CC0000;
+}
+
+.findDiv{
+    display: flex;
+    margin: 0.3em;
+    font-size: 18px;
+    justify-content: center;
+    color:gray;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}

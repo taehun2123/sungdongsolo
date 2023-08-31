@@ -1,0 +1,118 @@
+.container{
+  margin-left: 10%;
+  margin-top: 3%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap : 1.5em;
+}
+.getInformation{
+  text-align: left;
+  border-bottom: 2px solid var(--background-color-clicked);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  align-items: center;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  border-top : 1px solid gray;
+  border-bottom : 1px solid gray;
+  border-radius: 2dvb;
+  padding: 1em;
+  align-items: center;
+}
+
+.formInner{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+  padding: 0.8em;
+  align-items: center;
+}
+.formInner:last-child{
+  border-bottom: none;
+}
+
+.label{
+  width: 30%;
+  font-weight: 550;
+  font-size: 1.1em;
+  align-items: center;
+  padding: 1em;
+}
+
+.input{
+  width: 70%;
+  display: flex;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
+}
+
+/* 버튼 CSS */
+.button{
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10em;
+  background-color: #ff3333;
+  color: white;
+  font-weight: 550;
+  cursor : pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+/* 스켈레톤 부분 */
+.skeleton{
+  display: flex;
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  border-radius: 10dvw;
+}
+.colskeleton{
+  padding: 1em;
+  height: 10em;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: nowrap;
+  gap: 1em;
+  cursor: pointer;
+}
+.frameskeleton{
+  background-color: lightgray;
+  width: 10em;
+  height: 5em;
+  overflow: hidden;
+}
+.nameskeleton{
+  width: 100%;
+  height: 2em;
+  background-color: lightgray;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-radius: 0.8dvw;
+}
+.priceskeleton{
+  height: 1em;
+  background-color: lightgray;
+  text-align: end;
+  border-radius: 0.8dvw;
+}
